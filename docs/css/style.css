@@ -1,0 +1,58 @@
+body {
+    background: #f7f7f7;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.form {
+    width: 200px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.form__input {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+}
+
+.form__button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    background: #6c6;
+    border: 2px solid #6c6;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: opacity 0.5ms ease;
+}
+
+.form__button:hover {
+    opacity: 1;
+}
+
+.user__repo {
+    border: 1px solid #ddd;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    max-width: 500px;
+
+}
+
+.invisible {
+    display: none;
+}

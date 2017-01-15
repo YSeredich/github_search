@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+</head>
+<body>
+<main class="container">
+    <h1>Github search</h1>
+    <form id="searchForm" class="form">
+        <label for="searchText" class="form__label">Enter user login</label>
+        <input type="search" id="searchText" class="form__input">
+        <button id="searchControl" type="submit" class="form__button">Search</button>
+    </form>
+    <div id="mainContent">
+        <div id="userInfo"></div>
+        <div id="userRepos"></div>
+    </div>
+</main>
+
+<script src="js/github-api-client.js"></script>
+<script src="js/render.js"></script>
+<script src="js/user.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
